@@ -1,0 +1,90 @@
+#### Java default gitignore from github ####
+
+# compiled class files
+*.class
+
+# Mobile Tools for Java (J2ME)
+application/.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#### Eclipse / Maven gitignore ####
+
+application/.metadata
+application/bin/
+application/tmp/
+integration-tests/target/
+unit-tests/target/
+
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.MF
+local.properties
+application/.settings/
+.loadpath
+
+# Eclipse Core
+.project
+.settings
+
+# External tool builders
+java/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Log4j logs
+example.log*
+
+#### Custom exclusions ####
+
+# Local database logs
+derby.log
+
+localrepo
+
+# JPA diagrams
+java/diagrams/
+
+

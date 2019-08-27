@@ -1,0 +1,228 @@
+<mvc:View controllerName="com.sap.riskIntelligence.controller.homepage"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Customer Risk Intelligence">
+				<content>
+					<l:VerticalLayout class="sapUiContentPadding"
+						width="100%">
+						<l:content>
+							<Label text="Business Partner" labelFor="bpInput" />
+							<Input id="bpInput" class="sapUiSmallMarginBottom" type="Text"
+								placeholder="Enter business partner ID ..." valueStateText="ID cannot be empty."
+								value="{ path : '/name', type : 'sap.ui.model.type.String', constraints : { minLength: 1, maxLength: 10 } }" />
+							<Button text="Next" press="onNext" />
+						</l:content>
+					</l:VerticalLayout>
+					<Carousel class="sapUiContentPadding" loop="true" id="carouseltable">
+					<pages>
+						<Table items="{path: 'tweetsModel>/tweetsdata0'}" width="100%" id="tweetsdata0">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata1'}" width="100%" id="tweetsdata1">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata2'}" width="100%" id="tweetsdata2">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata3'}" width="100%" id="tweetsdata3">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata4'}" width="100%" id="tweetsdata4">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata5'}" width="100%" id="tweetsdata5">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata6'}" width="100%" id="tweetsdata6">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata7'}" width="100%" id="tweetsdata7">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata8'}" width="100%" id="tweetsdata8">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<Table items="{path: 'tweetsModel>/tweetsdata9'}" width="100%" id="tweetsdata9">
+							<columns>
+								<Column width="5%">
+									<Text text="Index" />
+								</Column>
+								<Column width="90%">
+									<Text text="Tweets" />
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{tweetsModel>index}" />
+										<Text text="{tweetsModel>tdata}" />
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						</pages>
+					</Carousel>
+					<l:VerticalLayout class="sapUiContentPadding">
+						<l:content>
+							<l:HorizontalLayout>
+								<l:VerticalLayout class="prevSentiLayout">
+									<Label text="Last calculated social score:" labelFor="_sentiscore" />
+									<Input id="_previoussentiscore" value="{tweetsModel>/previoussentiscore}" type="Text" editable="false"></Input>
+								</l:VerticalLayout>
+
+								<l:VerticalLayout>
+									<Label text="Last updated on:" labelFor="_prevDate" />
+									<Input id="_prevDate" value="{tweetsModel>/previousdate}" editable="false"></Input>
+								</l:VerticalLayout>
+							</l:HorizontalLayout>
+							<Label text="Current social score:" labelFor="_currentScore" />
+							<Input id="_currentScore" value="{tweetsModel>/EMAScore}" type="Text" editable="false"></Input>
+
+							<Button id="update_button_id" text="Submit social score"
+								press="_updatebp" ariaDescribedBy="comingSoonButtonDescription genericButtonDescription"
+								enabled="false" />
+						</l:content>
+					</l:VerticalLayout>
+
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
