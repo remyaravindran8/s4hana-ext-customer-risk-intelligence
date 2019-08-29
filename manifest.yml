@@ -15,6 +15,6 @@ applications:
     SPRING_PROFILES_ACTIVE: 'cloud'
     ALLOW_MOCKED_AUTH_HEADER: true
   services:
-   - XXXXXX
+   - xsuaa-customer-risk-intelligence
    - XXXXXX
    
