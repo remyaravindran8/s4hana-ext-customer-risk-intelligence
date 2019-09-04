@@ -12,7 +12,7 @@ As a custom use case, scope item ["Sell from Stock - BD9"](https://rapid.sap.com
 This tutorial is one of multiple tutorials that make up the SAP Extensibility Explorer for SAP S/4HANA Cloud. SAP Extensibility Explorer is a central place where anyone involved in the extensibility process can gain insight into various types of extensibility options. At the heart of [SAP Extensibility Explorer](https://sap.com/extends4), there is a rich repository of sample scenarios which show, in a hands-on way, how to realize an extensibility requirement leveraging different extensibility patterns.
 
 # Prerequisites
-This sample usages ["ml text classifier"](https://github.com/SAP/leonardo-ml-training) based on
+This sample usages ["ml text classifier"](https://github.com/SAP-samples/leonardo-ml-training) based on
 SAP Leonardo Machine Learning Functional services as side-by-side extension, which requires training on set of data before it can be used in here.
 
 # Requirements
@@ -24,14 +24,14 @@ Destination and Authorization services enabled.
 
 ---------------------
 # Download and Installation
-This repository is a part of the sample [Customer Risk Intelligence](). In step 'Build and Deploy the Application' in the tutorial the instructions for use can be found.
+This repository is a part of the sample [Customer Risk Intelligence](). In step ['Build and Deploy the application'](https://help.sap.com/viewer/aa1fb90ce2884ab890425aeeb6004eed/SHIP/en-US/2ff3ec61924642769016932e250836e7.html) in the tutorial the instructions for use can be found.
 
-[Please download the zip file by clicking here](https://github.com/SAP/s4hana-ext-customer-risk-intelligence/archive/master.zip) so that the code can be used in the tutorial.
+[Please download the zip file by clicking here](https://github.com/SAP-samples/s4hana-ext-customer-risk-intelligence/archive/master.zip) so that the code can be used in the tutorial.
 # Known Issues
 This sample scenario is based on Machine Learning and Hence, the accuracy of the resultant depends upon the Data Set Used. 
 
 # How to obtain support
-If you have any issues with this sample, please open a report using [GitHub issues](https://github.com/SAP/s4hana-ext-customer-risk-intelligence/issues).
+If you have any issues with this sample, please open a report using [GitHub issues](https://github.com/SAP-samples/s4hana-ext-customer-risk-intelligence/issues).
 
 # License
 Copyright © 2019 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE file](LICENSE).
