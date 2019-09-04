@@ -24,7 +24,7 @@ Destination and Authorization services enabled.
 
 ---------------------
 # Download and Installation
-This repository is a part of the sample [Customer Risk Intelligence](). In step ['Build and Deploy the application'](https://help.sap.com/viewer/aa1fb90ce2884ab890425aeeb6004eed/SHIP/en-US/2ff3ec61924642769016932e250836e7.html) in the tutorial the instructions for use can be found.
+This repository is a part of the sample [Customer Risk Intelligence](https://help.sap.com/viewer/aa1fb90ce2884ab890425aeeb6004eed/latest/en-US). In step ['Build and Deploy the application'](https://help.sap.com/viewer/aa1fb90ce2884ab890425aeeb6004eed/latest/en-US/2ff3ec61924642769016932e250836e7.html) in the tutorial the instructions for use can be found.
 
 [Please download the zip file by clicking here](https://github.com/SAP-samples/s4hana-ext-customer-risk-intelligence/archive/master.zip) so that the code can be used in the tutorial.
 # Known Issues
