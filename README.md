@@ -34,4 +34,4 @@ This sample scenario is based on Machine Learning and Hence, the accuracy of the
 If you have any issues with this sample, please open a report using [GitHub issues](https://github.com/SAP-samples/s4hana-ext-customer-risk-intelligence/issues).
 
 # License
-Copyright © 2019 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](LICENSES/Apache-2.0.txt).
+Copyright © 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](LICENSES/Apache-2.0.txt).
