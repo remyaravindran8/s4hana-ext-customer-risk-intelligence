@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/s4hana-ext-customer-risk-intelligence)](https://api.reuse.software/info/github.com/SAP-samples/s4hana-ext-customer-risk-intelligence)
+
 # SAP S/4HANA Cloud Extensions - Customer Risk Intelligence
 This repository contains sample code for the [Customer Risk Intelligence tutorial](http://tiny.cc/s4-cust-risk-intelligence).
 
